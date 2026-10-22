@@ -1,0 +1,66 @@
+
+---
+---
+@import url("https://googleapis.com");
+
+body {
+  background: #fdf6f8;
+  color: #4a3b40;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  
+   max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dancing Script', cursive;
+  color: #8c4a5e;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+h2 {
+  border-bottom: 2px solid #f3c9d5;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+  
+}
+
+a { color: #c2577a; font-weight: 700; }
+a:hover { color: #8c4a5e; text-decoration: underline; }
+
+header p { color: #8a7078; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(140, 74, 94, 0.25);
+   display: block;
+  margin: 1em auto;
+}
+
+blockquote {
+  background: #ffffff;
+  border-left: 4px solid #e8a0b5;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  color: #5a4a50;
+}
+
+.etoiles {
+  color: #f5b301;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+   text-align: center;
+}
+
+footer p, footer a { color: #b08a96;  text-align: center; }
+
+.view {
+  display: none !important;
+}
